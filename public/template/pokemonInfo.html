@@ -1,0 +1,29 @@
+<div>
+	<select ng-model="pokemonName" class="allPokemons" ng-change="pokemonInfo(pokemonName);">
+	  <option ng-repeat="pokemon in pokeList" value="{{pokemon}}">{{pokemon}}</option>
+	</select>
+</div>
+<div style="float: left;" class="topMargin" ng-if="pokeInfo">
+	<div>Pokemon Info</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Name</th>
+					<th>Base Experience</th>
+					<th>Best Move</th>
+					<th>Add Pokemon</a></th>
+				</tr>
+			</thead>
+			<tbody ng-init="pokeInfo">
+				<tr>
+					<td style="width:40px;" ng-if="pokeInfo.sprites"><img src="{{pokeInfo.sprites.front_default}}"></img></td>
+					<td>{{pokeInfo.name}}</td>
+					<td>{{pokeInfo.base_experience}}</td>
+					<td>{{pokeInfo.moves[0].move.name}}</td>
+					<td><img src="../images/up-arrow.svg" height="40px" ng-click="addPokemon(pokeInfo.name);"></img></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

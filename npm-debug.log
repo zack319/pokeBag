@@ -1,0 +1,926 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/media/zakaria/ZAKARIA/Projects/pokeBag',
+5 verbose install   [ 'express', 'generate-schema', 'mongoose', 'pokedex-promise-v2' ] ]
+6 info preinstall mean-app@1.0.0
+7 warn package.json jade@0.26.3 No README data
+8 warn package.json mocha@2.5.3 No README data
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping mongoose@^4.11.14 /media/zakaria/ZAKARIA/Projects/pokeBag
+11 verbose already installed skipping express@^4.13.3 /media/zakaria/ZAKARIA/Projects/pokeBag
+12 verbose already installed skipping generate-schema@^2.5.1 /media/zakaria/ZAKARIA/Projects/pokeBag
+13 verbose already installed skipping pokedex-promise-v2@^3.0.3 /media/zakaria/ZAKARIA/Projects/pokeBag
+14 silly resolved []
+15 info build /media/zakaria/ZAKARIA/Projects/pokeBag
+16 verbose linkStuff [ false, false, false, '/media/zakaria/ZAKARIA/Projects' ]
+17 info linkStuff mean-app@1.0.0
+18 verbose linkBins mean-app@1.0.0
+19 verbose linkMans mean-app@1.0.0
+20 verbose rebuildBundles mean-app@1.0.0
+21 verbose rebuildBundles [ '.bin',
+21 verbose rebuildBundles   'accepts',
+21 verbose rebuildBundles   'ajv',
+21 verbose rebuildBundles   'array-flatten',
+21 verbose rebuildBundles   'assert-plus',
+21 verbose rebuildBundles   'async',
+21 verbose rebuildBundles   'asynckit',
+21 verbose rebuildBundles   'aws-sign2',
+21 verbose rebuildBundles   'aws4',
+21 verbose rebuildBundles   'bluebird',
+21 verbose rebuildBundles   'body-parser',
+21 verbose rebuildBundles   'boom',
+21 verbose rebuildBundles   'bson',
+21 verbose rebuildBundles   'buffer-shims',
+21 verbose rebuildBundles   'bytes',
+21 verbose rebuildBundles   'caseless',
+21 verbose rebuildBundles   'co',
+21 verbose rebuildBundles   'combined-stream',
+21 verbose rebuildBundles   'commander',
+21 verbose rebuildBundles   'content-disposition',
+21 verbose rebuildBundles   'content-type',
+21 verbose rebuildBundles   'cookie',
+21 verbose rebuildBundles   'cookie-signature',
+21 verbose rebuildBundles   'core-util-is',
+21 verbose rebuildBundles   'cryptiles',
+21 verbose rebuildBundles   'debug',
+21 verbose rebuildBundles   'delayed-stream',
+21 verbose rebuildBundles   'depd',
+21 verbose rebuildBundles   'destroy',
+21 verbose rebuildBundles   'diff',
+21 verbose rebuildBundles   'ee-first',
+21 verbose rebuildBundles   'encodeurl',
+21 verbose rebuildBundles   'es6-promise',
+21 verbose rebuildBundles   'escape-html',
+21 verbose rebuildBundles   'escape-string-regexp',
+21 verbose rebuildBundles   'etag',
+21 verbose rebuildBundles   'express',
+21 verbose rebuildBundles   'extend',
+21 verbose rebuildBundles   'extsprintf',
+21 verbose rebuildBundles   'fast-deep-equal',
+21 verbose rebuildBundles   'finalhandler',
+21 verbose rebuildBundles   'forever-agent',
+21 verbose rebuildBundles   'form-data',
+21 verbose rebuildBundles   'forwarded',
+21 verbose rebuildBundles   'fresh',
+21 verbose rebuildBundles   'generate-schema',
+21 verbose rebuildBundles   'glob',
+21 verbose rebuildBundles   'growl',
+21 verbose rebuildBundles   'har-schema',
+21 verbose rebuildBundles   'har-validator',
+21 verbose rebuildBundles   'hawk',
+21 verbose rebuildBundles   'hoek',
+21 verbose rebuildBundles   'hooks-fixed',
+21 verbose rebuildBundles   'http-errors',
+21 verbose rebuildBundles   'iconv-lite',
+21 verbose rebuildBundles   'inherits',
+21 verbose rebuildBundles   'ipaddr.js',
+21 verbose rebuildBundles   'is-typedarray',
+21 verbose rebuildBundles   'isarray',
+21 verbose rebuildBundles   'isstream',
+21 verbose rebuildBundles   'jade',
+21 verbose rebuildBundles   'json-schema',
+21 verbose rebuildBundles   'json-schema-traverse',
+21 verbose rebuildBundles   'json-stable-stringify',
+21 verbose rebuildBundles   'json-stringify-safe',
+21 verbose rebuildBundles   'jsonify',
+21 verbose rebuildBundles   'jsprim',
+21 verbose rebuildBundles   'kareem',
+21 verbose rebuildBundles   'lodash',
+21 verbose rebuildBundles   'lru-cache',
+21 verbose rebuildBundles   'media-typer',
+21 verbose rebuildBundles   'memory-cache',
+21 verbose rebuildBundles   'merge-descriptors',
+21 verbose rebuildBundles   'methods',
+21 verbose rebuildBundles   'mime',
+21 verbose rebuildBundles   'mime-db',
+21 verbose rebuildBundles   'mime-types',
+21 verbose rebuildBundles   'minimatch',
+21 verbose rebuildBundles   'minimist',
+21 verbose rebuildBundles   'mkdirp',
+21 verbose rebuildBundles   'mocha',
+21 verbose rebuildBundles   'mongodb',
+21 verbose rebuildBundles   'mongodb-core',
+21 verbose rebuildBundles   'mongoose',
+21 verbose rebuildBundles   'mpath',
+21 verbose rebuildBundles   'mpromise',
+21 verbose rebuildBundles   'mquery',
+21 verbose rebuildBundles   'ms',
+21 verbose rebuildBundles   'muri',
+21 verbose rebuildBundles   'negotiator',
+21 verbose rebuildBundles   'oauth-sign',
+21 verbose rebuildBundles   'on-finished',
+21 verbose rebuildBundles   'parseurl',
+21 verbose rebuildBundles   'path-to-regexp',
+21 verbose rebuildBundles   'performance-now',
+21 verbose rebuildBundles   'pokedex-promise-v2',
+21 verbose rebuildBundles   'process-nextick-args',
+21 verbose rebuildBundles   'proxy-addr',
+21 verbose rebuildBundles   'punycode',
+21 verbose rebuildBundles   'qs',
+21 verbose rebuildBundles   'range-parser',
+21 verbose rebuildBundles   'raw-body',
+21 verbose rebuildBundles   'readable-stream',
+21 verbose rebuildBundles   'regexp-clone',
+21 verbose rebuildBundles   'request',
+21 verbose rebuildBundles   'request-promise',
+21 verbose rebuildBundles   'request-promise-core',
+21 verbose rebuildBundles   'require_optional',
+21 verbose rebuildBundles   'resolve-from',
+21 verbose rebuildBundles   'safe-buffer',
+21 verbose rebuildBundles   'semver',
+21 verbose rebuildBundles   'send',
+21 verbose rebuildBundles   'serve-static',
+21 verbose rebuildBundles   'setprototypeof',
+21 verbose rebuildBundles   'sigmund',
+21 verbose rebuildBundles   'sliced',
+21 verbose rebuildBundles   'sntp',
+21 verbose rebuildBundles   'statuses',
+21 verbose rebuildBundles   'stealthy-require',
+21 verbose rebuildBundles   'string_decoder',
+21 verbose rebuildBundles   'stringstream',
+21 verbose rebuildBundles   'supports-color',
+21 verbose rebuildBundles   'to-iso-string',
+21 verbose rebuildBundles   'tough-cookie',
+21 verbose rebuildBundles   'tunnel-agent',
+21 verbose rebuildBundles   'type-is',
+21 verbose rebuildBundles   'type-of-is',
+21 verbose rebuildBundles   'unpipe',
+21 verbose rebuildBundles   'util-deprecate',
+21 verbose rebuildBundles   'utils-merge',
+21 verbose rebuildBundles   'uuid',
+21 verbose rebuildBundles   'vary',
+21 verbose rebuildBundles   'verror' ]
+22 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/accepts
+23 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/accepts
+24 info preinstall accepts@1.3.4
+25 verbose linkStuff [ false,
+25 verbose linkStuff   false,
+25 verbose linkStuff   false,
+25 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+26 info linkStuff accepts@1.3.4
+27 verbose linkBins accepts@1.3.4
+28 verbose linkMans accepts@1.3.4
+29 verbose rebuildBundles accepts@1.3.4
+30 info install accepts@1.3.4
+31 info postinstall accepts@1.3.4
+32 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/ajv
+33 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/ajv
+34 info preinstall ajv@5.2.3
+35 verbose linkStuff [ false,
+35 verbose linkStuff   false,
+35 verbose linkStuff   false,
+35 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+36 info linkStuff ajv@5.2.3
+37 verbose linkBins ajv@5.2.3
+38 verbose linkMans ajv@5.2.3
+39 verbose rebuildBundles ajv@5.2.3
+40 info install ajv@5.2.3
+41 info postinstall ajv@5.2.3
+42 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/array-flatten
+43 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/array-flatten
+44 info preinstall array-flatten@1.1.1
+45 verbose linkStuff [ false,
+45 verbose linkStuff   false,
+45 verbose linkStuff   false,
+45 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+46 info linkStuff array-flatten@1.1.1
+47 verbose linkBins array-flatten@1.1.1
+48 verbose linkMans array-flatten@1.1.1
+49 verbose rebuildBundles array-flatten@1.1.1
+50 info install array-flatten@1.1.1
+51 info postinstall array-flatten@1.1.1
+52 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/assert-plus
+53 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/assert-plus
+54 info preinstall assert-plus@1.0.0
+55 verbose linkStuff [ false,
+55 verbose linkStuff   false,
+55 verbose linkStuff   false,
+55 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+56 info linkStuff assert-plus@1.0.0
+57 verbose linkBins assert-plus@1.0.0
+58 verbose linkMans assert-plus@1.0.0
+59 verbose rebuildBundles assert-plus@1.0.0
+60 info install assert-plus@1.0.0
+61 info postinstall assert-plus@1.0.0
+62 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/async
+63 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/async
+64 info preinstall async@2.1.4
+65 verbose linkStuff [ false,
+65 verbose linkStuff   false,
+65 verbose linkStuff   false,
+65 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+66 info linkStuff async@2.1.4
+67 verbose linkBins async@2.1.4
+68 verbose linkMans async@2.1.4
+69 verbose rebuildBundles async@2.1.4
+70 info install async@2.1.4
+71 info postinstall async@2.1.4
+72 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/asynckit
+73 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/asynckit
+74 info preinstall asynckit@0.4.0
+75 verbose linkStuff [ false,
+75 verbose linkStuff   false,
+75 verbose linkStuff   false,
+75 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+76 info linkStuff asynckit@0.4.0
+77 verbose linkBins asynckit@0.4.0
+78 verbose linkMans asynckit@0.4.0
+79 verbose rebuildBundles asynckit@0.4.0
+80 info install asynckit@0.4.0
+81 info postinstall asynckit@0.4.0
+82 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/aws-sign2
+83 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/aws-sign2
+84 info preinstall aws-sign2@0.7.0
+85 verbose linkStuff [ false,
+85 verbose linkStuff   false,
+85 verbose linkStuff   false,
+85 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+86 info linkStuff aws-sign2@0.7.0
+87 verbose linkBins aws-sign2@0.7.0
+88 verbose linkMans aws-sign2@0.7.0
+89 verbose rebuildBundles aws-sign2@0.7.0
+90 info install aws-sign2@0.7.0
+91 info postinstall aws-sign2@0.7.0
+92 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/aws4
+93 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/aws4
+94 info preinstall aws4@1.6.0
+95 verbose linkStuff [ false,
+95 verbose linkStuff   false,
+95 verbose linkStuff   false,
+95 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+96 info linkStuff aws4@1.6.0
+97 verbose linkBins aws4@1.6.0
+98 verbose linkMans aws4@1.6.0
+99 verbose rebuildBundles aws4@1.6.0
+100 info install aws4@1.6.0
+101 info postinstall aws4@1.6.0
+102 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/bluebird
+103 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/bluebird
+104 info preinstall bluebird@3.5.0
+105 verbose linkStuff [ false,
+105 verbose linkStuff   false,
+105 verbose linkStuff   false,
+105 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+106 info linkStuff bluebird@3.5.0
+107 verbose linkBins bluebird@3.5.0
+108 verbose linkMans bluebird@3.5.0
+109 verbose rebuildBundles bluebird@3.5.0
+110 info install bluebird@3.5.0
+111 info postinstall bluebird@3.5.0
+112 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/body-parser
+113 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/body-parser
+114 info preinstall body-parser@1.18.2
+115 verbose linkStuff [ false,
+115 verbose linkStuff   false,
+115 verbose linkStuff   false,
+115 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+116 info linkStuff body-parser@1.18.2
+117 verbose linkBins body-parser@1.18.2
+118 verbose linkMans body-parser@1.18.2
+119 verbose rebuildBundles body-parser@1.18.2
+120 info install body-parser@1.18.2
+121 info postinstall body-parser@1.18.2
+122 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/boom
+123 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/boom
+124 info preinstall boom@4.3.1
+125 verbose linkStuff [ false,
+125 verbose linkStuff   false,
+125 verbose linkStuff   false,
+125 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+126 info linkStuff boom@4.3.1
+127 verbose linkBins boom@4.3.1
+128 verbose linkMans boom@4.3.1
+129 verbose rebuildBundles boom@4.3.1
+130 info install boom@4.3.1
+131 info postinstall boom@4.3.1
+132 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/bson
+133 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/bson
+134 info preinstall bson@1.0.4
+135 verbose linkStuff [ false,
+135 verbose linkStuff   false,
+135 verbose linkStuff   false,
+135 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+136 info linkStuff bson@1.0.4
+137 verbose linkBins bson@1.0.4
+138 verbose linkMans bson@1.0.4
+139 verbose rebuildBundles bson@1.0.4
+140 info install bson@1.0.4
+141 info postinstall bson@1.0.4
+142 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/buffer-shims
+143 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/buffer-shims
+144 info preinstall buffer-shims@1.0.0
+145 verbose linkStuff [ false,
+145 verbose linkStuff   false,
+145 verbose linkStuff   false,
+145 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+146 info linkStuff buffer-shims@1.0.0
+147 verbose linkBins buffer-shims@1.0.0
+148 verbose linkMans buffer-shims@1.0.0
+149 verbose rebuildBundles buffer-shims@1.0.0
+150 info install buffer-shims@1.0.0
+151 info postinstall buffer-shims@1.0.0
+152 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/bytes
+153 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/bytes
+154 info preinstall bytes@3.0.0
+155 verbose linkStuff [ false,
+155 verbose linkStuff   false,
+155 verbose linkStuff   false,
+155 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+156 info linkStuff bytes@3.0.0
+157 verbose linkBins bytes@3.0.0
+158 verbose linkMans bytes@3.0.0
+159 verbose rebuildBundles bytes@3.0.0
+160 info install bytes@3.0.0
+161 info postinstall bytes@3.0.0
+162 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/caseless
+163 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/caseless
+164 info preinstall caseless@0.12.0
+165 verbose linkStuff [ false,
+165 verbose linkStuff   false,
+165 verbose linkStuff   false,
+165 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+166 info linkStuff caseless@0.12.0
+167 verbose linkBins caseless@0.12.0
+168 verbose linkMans caseless@0.12.0
+169 verbose rebuildBundles caseless@0.12.0
+170 info install caseless@0.12.0
+171 info postinstall caseless@0.12.0
+172 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/co
+173 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/co
+174 info preinstall co@4.6.0
+175 verbose linkStuff [ false,
+175 verbose linkStuff   false,
+175 verbose linkStuff   false,
+175 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+176 info linkStuff co@4.6.0
+177 verbose linkBins co@4.6.0
+178 verbose linkMans co@4.6.0
+179 verbose rebuildBundles co@4.6.0
+180 info install co@4.6.0
+181 info postinstall co@4.6.0
+182 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/combined-stream
+183 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/combined-stream
+184 info preinstall combined-stream@1.0.5
+185 verbose linkStuff [ false,
+185 verbose linkStuff   false,
+185 verbose linkStuff   false,
+185 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+186 info linkStuff combined-stream@1.0.5
+187 verbose linkBins combined-stream@1.0.5
+188 verbose linkMans combined-stream@1.0.5
+189 verbose rebuildBundles combined-stream@1.0.5
+190 info install combined-stream@1.0.5
+191 info postinstall combined-stream@1.0.5
+192 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/commander
+193 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/commander
+194 info preinstall commander@2.3.0
+195 verbose linkStuff [ false,
+195 verbose linkStuff   false,
+195 verbose linkStuff   false,
+195 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+196 info linkStuff commander@2.3.0
+197 verbose linkBins commander@2.3.0
+198 verbose linkMans commander@2.3.0
+199 verbose rebuildBundles commander@2.3.0
+200 info install commander@2.3.0
+201 info postinstall commander@2.3.0
+202 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/content-disposition
+203 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/content-disposition
+204 info preinstall content-disposition@0.5.2
+205 verbose linkStuff [ false,
+205 verbose linkStuff   false,
+205 verbose linkStuff   false,
+205 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+206 info linkStuff content-disposition@0.5.2
+207 verbose linkBins content-disposition@0.5.2
+208 verbose linkMans content-disposition@0.5.2
+209 verbose rebuildBundles content-disposition@0.5.2
+210 info install content-disposition@0.5.2
+211 info postinstall content-disposition@0.5.2
+212 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/content-type
+213 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/content-type
+214 info preinstall content-type@1.0.4
+215 verbose linkStuff [ false,
+215 verbose linkStuff   false,
+215 verbose linkStuff   false,
+215 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+216 info linkStuff content-type@1.0.4
+217 verbose linkBins content-type@1.0.4
+218 verbose linkMans content-type@1.0.4
+219 verbose rebuildBundles content-type@1.0.4
+220 info install content-type@1.0.4
+221 info postinstall content-type@1.0.4
+222 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/cookie
+223 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/cookie
+224 info preinstall cookie@0.3.1
+225 verbose linkStuff [ false,
+225 verbose linkStuff   false,
+225 verbose linkStuff   false,
+225 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+226 info linkStuff cookie@0.3.1
+227 verbose linkBins cookie@0.3.1
+228 verbose linkMans cookie@0.3.1
+229 verbose rebuildBundles cookie@0.3.1
+230 info install cookie@0.3.1
+231 info postinstall cookie@0.3.1
+232 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/cookie-signature
+233 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/cookie-signature
+234 info preinstall cookie-signature@1.0.6
+235 verbose linkStuff [ false,
+235 verbose linkStuff   false,
+235 verbose linkStuff   false,
+235 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+236 info linkStuff cookie-signature@1.0.6
+237 verbose linkBins cookie-signature@1.0.6
+238 verbose linkMans cookie-signature@1.0.6
+239 verbose rebuildBundles cookie-signature@1.0.6
+240 info install cookie-signature@1.0.6
+241 info postinstall cookie-signature@1.0.6
+242 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/core-util-is
+243 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/core-util-is
+244 info preinstall core-util-is@1.0.2
+245 verbose linkStuff [ false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+246 info linkStuff core-util-is@1.0.2
+247 verbose linkBins core-util-is@1.0.2
+248 verbose linkMans core-util-is@1.0.2
+249 verbose rebuildBundles core-util-is@1.0.2
+250 info install core-util-is@1.0.2
+251 info postinstall core-util-is@1.0.2
+252 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/cryptiles
+253 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/cryptiles
+254 info preinstall cryptiles@3.1.2
+255 verbose linkStuff [ false,
+255 verbose linkStuff   false,
+255 verbose linkStuff   false,
+255 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+256 info linkStuff cryptiles@3.1.2
+257 verbose linkBins cryptiles@3.1.2
+258 verbose linkMans cryptiles@3.1.2
+259 verbose rebuildBundles cryptiles@3.1.2
+260 verbose rebuildBundles [ 'boom' ]
+261 info install cryptiles@3.1.2
+262 info postinstall cryptiles@3.1.2
+263 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/debug
+264 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/debug
+265 info preinstall debug@2.6.9
+266 verbose linkStuff [ false,
+266 verbose linkStuff   false,
+266 verbose linkStuff   false,
+266 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+267 info linkStuff debug@2.6.9
+268 verbose linkBins debug@2.6.9
+269 verbose linkMans debug@2.6.9
+270 verbose rebuildBundles debug@2.6.9
+271 info install debug@2.6.9
+272 info postinstall debug@2.6.9
+273 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/delayed-stream
+274 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/delayed-stream
+275 info preinstall delayed-stream@1.0.0
+276 verbose linkStuff [ false,
+276 verbose linkStuff   false,
+276 verbose linkStuff   false,
+276 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+277 info linkStuff delayed-stream@1.0.0
+278 verbose linkBins delayed-stream@1.0.0
+279 verbose linkMans delayed-stream@1.0.0
+280 verbose rebuildBundles delayed-stream@1.0.0
+281 info install delayed-stream@1.0.0
+282 info postinstall delayed-stream@1.0.0
+283 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/depd
+284 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/depd
+285 info preinstall depd@1.1.1
+286 verbose linkStuff [ false,
+286 verbose linkStuff   false,
+286 verbose linkStuff   false,
+286 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+287 info linkStuff depd@1.1.1
+288 verbose linkBins depd@1.1.1
+289 verbose linkMans depd@1.1.1
+290 verbose rebuildBundles depd@1.1.1
+291 info install depd@1.1.1
+292 info postinstall depd@1.1.1
+293 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/destroy
+294 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/destroy
+295 info preinstall destroy@1.0.4
+296 verbose linkStuff [ false,
+296 verbose linkStuff   false,
+296 verbose linkStuff   false,
+296 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+297 info linkStuff destroy@1.0.4
+298 verbose linkBins destroy@1.0.4
+299 verbose linkMans destroy@1.0.4
+300 verbose rebuildBundles destroy@1.0.4
+301 info install destroy@1.0.4
+302 info postinstall destroy@1.0.4
+303 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/diff
+304 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/diff
+305 info preinstall diff@1.4.0
+306 verbose linkStuff [ false,
+306 verbose linkStuff   false,
+306 verbose linkStuff   false,
+306 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+307 info linkStuff diff@1.4.0
+308 verbose linkBins diff@1.4.0
+309 verbose linkMans diff@1.4.0
+310 verbose rebuildBundles diff@1.4.0
+311 info install diff@1.4.0
+312 info postinstall diff@1.4.0
+313 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/ee-first
+314 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/ee-first
+315 info preinstall ee-first@1.1.1
+316 verbose linkStuff [ false,
+316 verbose linkStuff   false,
+316 verbose linkStuff   false,
+316 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+317 info linkStuff ee-first@1.1.1
+318 verbose linkBins ee-first@1.1.1
+319 verbose linkMans ee-first@1.1.1
+320 verbose rebuildBundles ee-first@1.1.1
+321 info install ee-first@1.1.1
+322 info postinstall ee-first@1.1.1
+323 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/encodeurl
+324 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/encodeurl
+325 info preinstall encodeurl@1.0.1
+326 verbose linkStuff [ false,
+326 verbose linkStuff   false,
+326 verbose linkStuff   false,
+326 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+327 info linkStuff encodeurl@1.0.1
+328 verbose linkBins encodeurl@1.0.1
+329 verbose linkMans encodeurl@1.0.1
+330 verbose rebuildBundles encodeurl@1.0.1
+331 info install encodeurl@1.0.1
+332 info postinstall encodeurl@1.0.1
+333 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/es6-promise
+334 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/es6-promise
+335 info preinstall es6-promise@3.2.1
+336 verbose linkStuff [ false,
+336 verbose linkStuff   false,
+336 verbose linkStuff   false,
+336 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+337 info linkStuff es6-promise@3.2.1
+338 verbose linkBins es6-promise@3.2.1
+339 verbose linkMans es6-promise@3.2.1
+340 verbose rebuildBundles es6-promise@3.2.1
+341 info install es6-promise@3.2.1
+342 info postinstall es6-promise@3.2.1
+343 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/escape-html
+344 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/escape-html
+345 info preinstall escape-html@1.0.3
+346 verbose linkStuff [ false,
+346 verbose linkStuff   false,
+346 verbose linkStuff   false,
+346 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+347 info linkStuff escape-html@1.0.3
+348 verbose linkBins escape-html@1.0.3
+349 verbose linkMans escape-html@1.0.3
+350 verbose rebuildBundles escape-html@1.0.3
+351 info install escape-html@1.0.3
+352 info postinstall escape-html@1.0.3
+353 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/escape-string-regexp
+354 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/escape-string-regexp
+355 info preinstall escape-string-regexp@1.0.2
+356 verbose linkStuff [ false,
+356 verbose linkStuff   false,
+356 verbose linkStuff   false,
+356 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+357 info linkStuff escape-string-regexp@1.0.2
+358 verbose linkBins escape-string-regexp@1.0.2
+359 verbose linkMans escape-string-regexp@1.0.2
+360 verbose rebuildBundles escape-string-regexp@1.0.2
+361 info install escape-string-regexp@1.0.2
+362 info postinstall escape-string-regexp@1.0.2
+363 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/etag
+364 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/etag
+365 info preinstall etag@1.8.1
+366 verbose linkStuff [ false,
+366 verbose linkStuff   false,
+366 verbose linkStuff   false,
+366 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+367 info linkStuff etag@1.8.1
+368 verbose linkBins etag@1.8.1
+369 verbose linkMans etag@1.8.1
+370 verbose rebuildBundles etag@1.8.1
+371 info install etag@1.8.1
+372 info postinstall etag@1.8.1
+373 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/extend
+374 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/extend
+375 info preinstall extend@3.0.1
+376 verbose linkStuff [ false,
+376 verbose linkStuff   false,
+376 verbose linkStuff   false,
+376 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+377 info linkStuff extend@3.0.1
+378 verbose linkBins extend@3.0.1
+379 verbose linkMans extend@3.0.1
+380 verbose rebuildBundles extend@3.0.1
+381 info install extend@3.0.1
+382 info postinstall extend@3.0.1
+383 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/extsprintf
+384 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/extsprintf
+385 info preinstall extsprintf@1.3.0
+386 verbose linkStuff [ false,
+386 verbose linkStuff   false,
+386 verbose linkStuff   false,
+386 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+387 info linkStuff extsprintf@1.3.0
+388 verbose linkBins extsprintf@1.3.0
+389 verbose linkMans extsprintf@1.3.0
+390 verbose rebuildBundles extsprintf@1.3.0
+391 info install extsprintf@1.3.0
+392 info postinstall extsprintf@1.3.0
+393 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/fast-deep-equal
+394 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/fast-deep-equal
+395 info preinstall fast-deep-equal@1.0.0
+396 verbose linkStuff [ false,
+396 verbose linkStuff   false,
+396 verbose linkStuff   false,
+396 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+397 info linkStuff fast-deep-equal@1.0.0
+398 verbose linkBins fast-deep-equal@1.0.0
+399 verbose linkMans fast-deep-equal@1.0.0
+400 verbose rebuildBundles fast-deep-equal@1.0.0
+401 info install fast-deep-equal@1.0.0
+402 info postinstall fast-deep-equal@1.0.0
+403 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/finalhandler
+404 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/finalhandler
+405 info preinstall finalhandler@1.1.0
+406 verbose linkStuff [ false,
+406 verbose linkStuff   false,
+406 verbose linkStuff   false,
+406 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+407 info linkStuff finalhandler@1.1.0
+408 verbose linkBins finalhandler@1.1.0
+409 verbose linkMans finalhandler@1.1.0
+410 verbose rebuildBundles finalhandler@1.1.0
+411 info install finalhandler@1.1.0
+412 info postinstall finalhandler@1.1.0
+413 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/forever-agent
+414 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/forever-agent
+415 info preinstall forever-agent@0.6.1
+416 verbose linkStuff [ false,
+416 verbose linkStuff   false,
+416 verbose linkStuff   false,
+416 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+417 info linkStuff forever-agent@0.6.1
+418 verbose linkBins forever-agent@0.6.1
+419 verbose linkMans forever-agent@0.6.1
+420 verbose rebuildBundles forever-agent@0.6.1
+421 info install forever-agent@0.6.1
+422 info postinstall forever-agent@0.6.1
+423 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/form-data
+424 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/form-data
+425 info preinstall form-data@2.3.1
+426 verbose linkStuff [ false,
+426 verbose linkStuff   false,
+426 verbose linkStuff   false,
+426 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+427 info linkStuff form-data@2.3.1
+428 verbose linkBins form-data@2.3.1
+429 verbose linkMans form-data@2.3.1
+430 verbose rebuildBundles form-data@2.3.1
+431 info install form-data@2.3.1
+432 info postinstall form-data@2.3.1
+433 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/forwarded
+434 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/forwarded
+435 info preinstall forwarded@0.1.2
+436 verbose linkStuff [ false,
+436 verbose linkStuff   false,
+436 verbose linkStuff   false,
+436 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+437 info linkStuff forwarded@0.1.2
+438 verbose linkBins forwarded@0.1.2
+439 verbose linkMans forwarded@0.1.2
+440 verbose rebuildBundles forwarded@0.1.2
+441 info install forwarded@0.1.2
+442 info postinstall forwarded@0.1.2
+443 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/fresh
+444 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/fresh
+445 info preinstall fresh@0.5.2
+446 verbose linkStuff [ false,
+446 verbose linkStuff   false,
+446 verbose linkStuff   false,
+446 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+447 info linkStuff fresh@0.5.2
+448 verbose linkBins fresh@0.5.2
+449 verbose linkMans fresh@0.5.2
+450 verbose rebuildBundles fresh@0.5.2
+451 info install fresh@0.5.2
+452 info postinstall fresh@0.5.2
+453 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/glob
+454 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/glob
+455 info preinstall glob@3.2.11
+456 verbose linkStuff [ false,
+456 verbose linkStuff   false,
+456 verbose linkStuff   false,
+456 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+457 info linkStuff glob@3.2.11
+458 verbose linkBins glob@3.2.11
+459 verbose linkMans glob@3.2.11
+460 verbose rebuildBundles glob@3.2.11
+461 info install glob@3.2.11
+462 info postinstall glob@3.2.11
+463 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/growl
+464 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/growl
+465 info preinstall growl@1.9.2
+466 verbose linkStuff [ false,
+466 verbose linkStuff   false,
+466 verbose linkStuff   false,
+466 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+467 info linkStuff growl@1.9.2
+468 verbose linkBins growl@1.9.2
+469 verbose linkMans growl@1.9.2
+470 verbose rebuildBundles growl@1.9.2
+471 info install growl@1.9.2
+472 info postinstall growl@1.9.2
+473 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/har-schema
+474 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/har-schema
+475 info preinstall har-schema@2.0.0
+476 verbose linkStuff [ false,
+476 verbose linkStuff   false,
+476 verbose linkStuff   false,
+476 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+477 info linkStuff har-schema@2.0.0
+478 verbose linkBins har-schema@2.0.0
+479 verbose linkMans har-schema@2.0.0
+480 verbose rebuildBundles har-schema@2.0.0
+481 info install har-schema@2.0.0
+482 info postinstall har-schema@2.0.0
+483 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/har-validator
+484 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/har-validator
+485 info preinstall har-validator@5.0.3
+486 verbose linkStuff [ false,
+486 verbose linkStuff   false,
+486 verbose linkStuff   false,
+486 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+487 info linkStuff har-validator@5.0.3
+488 verbose linkBins har-validator@5.0.3
+489 verbose linkMans har-validator@5.0.3
+490 verbose rebuildBundles har-validator@5.0.3
+491 info install har-validator@5.0.3
+492 info postinstall har-validator@5.0.3
+493 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/hawk
+494 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/hawk
+495 info preinstall hawk@6.0.2
+496 verbose linkStuff [ false,
+496 verbose linkStuff   false,
+496 verbose linkStuff   false,
+496 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+497 info linkStuff hawk@6.0.2
+498 verbose linkBins hawk@6.0.2
+499 verbose linkMans hawk@6.0.2
+500 verbose rebuildBundles hawk@6.0.2
+501 info install hawk@6.0.2
+502 info postinstall hawk@6.0.2
+503 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/hoek
+504 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/hoek
+505 info preinstall hoek@4.2.0
+506 verbose linkStuff [ false,
+506 verbose linkStuff   false,
+506 verbose linkStuff   false,
+506 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+507 info linkStuff hoek@4.2.0
+508 verbose linkBins hoek@4.2.0
+509 verbose linkMans hoek@4.2.0
+510 verbose rebuildBundles hoek@4.2.0
+511 info install hoek@4.2.0
+512 info postinstall hoek@4.2.0
+513 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/hooks-fixed
+514 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/hooks-fixed
+515 info preinstall hooks-fixed@2.0.0
+516 verbose linkStuff [ false,
+516 verbose linkStuff   false,
+516 verbose linkStuff   false,
+516 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+517 info linkStuff hooks-fixed@2.0.0
+518 verbose linkBins hooks-fixed@2.0.0
+519 verbose linkMans hooks-fixed@2.0.0
+520 verbose rebuildBundles hooks-fixed@2.0.0
+521 info install hooks-fixed@2.0.0
+522 info postinstall hooks-fixed@2.0.0
+523 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/http-errors
+524 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/http-errors
+525 info preinstall http-errors@1.6.2
+526 verbose linkStuff [ false,
+526 verbose linkStuff   false,
+526 verbose linkStuff   false,
+526 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+527 info linkStuff http-errors@1.6.2
+528 verbose linkBins http-errors@1.6.2
+529 verbose linkMans http-errors@1.6.2
+530 verbose rebuildBundles http-errors@1.6.2
+531 verbose rebuildBundles [ 'setprototypeof' ]
+532 info install http-errors@1.6.2
+533 info postinstall http-errors@1.6.2
+534 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/iconv-lite
+535 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/iconv-lite
+536 info preinstall iconv-lite@0.4.19
+537 verbose linkStuff [ false,
+537 verbose linkStuff   false,
+537 verbose linkStuff   false,
+537 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+538 info linkStuff iconv-lite@0.4.19
+539 verbose linkBins iconv-lite@0.4.19
+540 verbose linkMans iconv-lite@0.4.19
+541 verbose rebuildBundles iconv-lite@0.4.19
+542 info install iconv-lite@0.4.19
+543 info postinstall iconv-lite@0.4.19
+544 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/inherits
+545 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/inherits
+546 info preinstall inherits@2.0.3
+547 verbose linkStuff [ false,
+547 verbose linkStuff   false,
+547 verbose linkStuff   false,
+547 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+548 info linkStuff inherits@2.0.3
+549 verbose linkBins inherits@2.0.3
+550 verbose linkMans inherits@2.0.3
+551 verbose rebuildBundles inherits@2.0.3
+552 info install inherits@2.0.3
+553 info postinstall inherits@2.0.3
+554 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/ipaddr.js
+555 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/ipaddr.js
+556 info preinstall ipaddr.js@1.5.2
+557 verbose linkStuff [ false,
+557 verbose linkStuff   false,
+557 verbose linkStuff   false,
+557 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+558 info linkStuff ipaddr.js@1.5.2
+559 verbose linkBins ipaddr.js@1.5.2
+560 verbose linkMans ipaddr.js@1.5.2
+561 verbose rebuildBundles ipaddr.js@1.5.2
+562 info install ipaddr.js@1.5.2
+563 info postinstall ipaddr.js@1.5.2
+564 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/is-typedarray
+565 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/is-typedarray
+566 info preinstall is-typedarray@1.0.0
+567 verbose linkStuff [ false,
+567 verbose linkStuff   false,
+567 verbose linkStuff   false,
+567 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+568 info linkStuff is-typedarray@1.0.0
+569 verbose linkBins is-typedarray@1.0.0
+570 verbose linkMans is-typedarray@1.0.0
+571 verbose rebuildBundles is-typedarray@1.0.0
+572 info install is-typedarray@1.0.0
+573 info postinstall is-typedarray@1.0.0
+574 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/isarray
+575 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/isarray
+576 info preinstall isarray@1.0.0
+577 verbose linkStuff [ false,
+577 verbose linkStuff   false,
+577 verbose linkStuff   false,
+577 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+578 info linkStuff isarray@1.0.0
+579 verbose linkBins isarray@1.0.0
+580 verbose linkMans isarray@1.0.0
+581 verbose rebuildBundles isarray@1.0.0
+582 info install isarray@1.0.0
+583 info postinstall isarray@1.0.0
+584 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/isstream
+585 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/isstream
+586 info preinstall isstream@0.1.2
+587 verbose linkStuff [ false,
+587 verbose linkStuff   false,
+587 verbose linkStuff   false,
+587 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+588 info linkStuff isstream@0.1.2
+589 verbose linkBins isstream@0.1.2
+590 verbose linkMans isstream@0.1.2
+591 verbose rebuildBundles isstream@0.1.2
+592 info install isstream@0.1.2
+593 info postinstall isstream@0.1.2
+594 verbose rebuild bundle /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/jade
+595 info build /media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/jade
+596 info preinstall jade@0.26.3
+597 verbose linkStuff [ false,
+597 verbose linkStuff   false,
+597 verbose linkStuff   false,
+597 verbose linkStuff   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules' ]
+598 info linkStuff jade@0.26.3
+599 verbose linkBins jade@0.26.3
+600 verbose link bins [ { jade: './bin/jade' },
+600 verbose link bins   '/media/zakaria/ZAKARIA/Projects/pokeBag/node_modules/.bin',
+600 verbose link bins   false ]
+601 verbose linkMans jade@0.26.3
+602 verbose rebuildBundles jade@0.26.3
+603 verbose rebuildBundles [ 'commander', 'mkdirp' ]
+604 error Error: EPERM, symlink '../jade/bin/jade'
+604 error  { [Error: EPERM, symlink '../jade/bin/jade'] errno: 50, code: 'EPERM', path: '../jade/bin/jade' }
+605 error Please try running this command again as root/Administrator.
+606 error System Linux 4.4.0-93-generic
+607 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+608 error cwd /media/zakaria/ZAKARIA/Projects/pokeBag
+609 error node -v v0.10.25
+610 error npm -v 1.3.10
+611 error path ../jade/bin/jade
+612 error code EPERM
+613 error errno 50
+614 error stack Error: EPERM, symlink '../jade/bin/jade'
+615 verbose exit [ 50, true ]

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="pokeApp">
+<head>
+  <title>PokeBag</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/custom.css" rel="stylesheet"/>
+</head>
+<body ng-cloak="" ng-controller="PokemonController">
+<!--   <navigation-header></navigation-header> -->
+  <h1>Your Pokemon Bag</h1>
+  <pokemon-bag></pokemon-bag>
+  <!-- {{bag}} -->
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted text-center">
+        <small>&copy; 2017 NodeJS pokeBag</small>
+      </p>
+    </div>
+  </footer>
+
+  <script src="jquery/jquery-2.1.4.min.js"></script>
+  <script src="../node_modules/angular/angular.js"></script>
+  <script src="../node_modules/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+
+
+</body>
+</html>

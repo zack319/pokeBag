@@ -1,0 +1,69 @@
+<div style="display: flex;">
+	<div style="width: 60%;">
+			<!--TEST-->
+			<div id="pricing-table" class="clear">
+			    <div class="plan" ng-repeat="pokemon in bag.pokemons">
+			        <h3>{{pokemon.name}}<span><img ng-src="{{pokemon.sprites[0].front_default}}"></img></span></h3>
+			        <button class="signup" ng-if="levelUpCondition" ng-click="levelUp(pokemon._id);">Level Up</button>         
+			        <ul>
+			            <li><b>ID</b> {{pokemon.id}}</li>
+			            <li><b>Weight</b> {{pokemon.weight}}</li>
+			            <li><b>Level</b> {{pokemon.level}}</li>
+						<li>
+							<button class="signup" ng-click="deletePokemon(pokemon._id);">Remove pokemon</button>
+							<button class="signup" ng-if="(pokemon.level >= pokemon.evolutionInfo.evolutionDetails.min_level && pokemon.evolutionInfo.evolutionDetails.trigger[0].name == 'level-up') || (pokemon.held_items.length > 0 && pokemon.evolutionInfo.evolutionDetails.trigger[0].name == 'use-item') && evolveCondition == true" ng-click="evolvePokemon(pokemon._id);">Evolve</button>
+						</li>		
+			        </ul> 
+			    </div>	
+			</div>
+			<!--END TEST-->
+	</div>
+	<div style="display: block; width: 30%;">
+		<div class="botMargin">
+			
+				<div>My Objects</div>
+					<table class="table table-responsive">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Effect</th>
+								<th>Quantity</th>
+								<th>Assign To</th>
+								<th>Actions</th>
+							</tr>
+						</thead>
+						<tbody ng-init="bag.objects">
+							<tr ng-repeat="object in bag.objects">
+								<td>{{object.name}}</td>
+								<td>{{object.effect}}</td>
+								<td>{{object.quantity}}</td>
+								<td>
+									<select ng-model="pokemonName" ng-change="assignItem(object.name, pokemonName);">
+										<option ng-repeat="pokemon in bag.pokemons">{{pokemon.name}}</option>
+									</select>
+								</td>
+								<td>
+									<button ng-click="deleteObject(object._id)">Remove Object</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+		</div>
+		<div class="container botMargin">
+			<button ng-show="bag.pokemons.length<5;" ng-click="addPokemonToBag=true; addObjectToBag=false;">Add pokemon to bag</button>
+			<button ng-click="addPokemonToBag=false; addObjectToBag=true;">Add object to bag</button>
+		</div>
+		<div class="topMargin">
+			<pokemon-info ng-if="addPokemonToBag && !addObjectToBag"></pokemon-info>
+			<object-info ng-if="!addPokemonToBag && addObjectToBag"></object-info>
+		</div>
+	</div>
+</div>
+<!-- <div class="container botMargin">
+	<button ng-click="addPokemonToBag=true; addObjectToBag=false;">Add pokemon to bag</button>
+	<button ng-click="addPokemonToBag=false; addObjectToBag=true;">Add object to bag</button>
+</div>
+<div>
+	<pokemon-info ng-if="addPokemonToBag && !addObjectToBag"></pokemon-info>
+	<object-info ng-if="!addPokemonToBag && addObjectToBag"></object-info>
+</div> -->

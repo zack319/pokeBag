@@ -1,0 +1,25 @@
+<div>
+	<select ng-model="objectName" class="allPokemons" ng-change="objectInfo(objectName);">
+	  <option ng-repeat="object in objectList" value="{{object}}">{{object}}</option>
+	</select>
+</div>
+<div style="float: left;" class="topMargin" ng-if="objectInfo">
+	<div>Object Info</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Description</th>
+					<th>Add Object</a></th>
+				</tr>
+			</thead>
+			<tbody ng-init="objectInfo">
+				<tr>
+					<td>{{objectInfo.name}}</td>
+					<td>{{objectInfo.effect_entries[0].short_effect}}</td>
+					<td><img src="../images/up-arrow.svg" height="40px" ng-click="addObject(objectInfo.name);"></img></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

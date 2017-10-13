@@ -1,0 +1,29 @@
+{
+  "name": "mean-app",
+  "version": "1.0.0",
+  "description": "MEAN stack application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "Full Stack pokemon APP",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "express": "^4.13.3",
+    "generate-schema": "^2.5.1",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.14",
+    "pokedex-promise-v2": "^3.0.3"
+  }
+}
