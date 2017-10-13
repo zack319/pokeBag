@@ -13,9 +13,9 @@ The versions are very important since the pokemon API NODEJS Wrapper uses promis
 I have my package.json ready to roll, just cd or go into the folder and run "npm install", it will install all the dependencies for you.
 Then you can simply run the command "node app.js".
 
-Then navigate to localhost:7777/
+Then navigate to localhost:8000/
 
-Sometimes, your node app cashes ports and connection on that port, and still thinks that connection is open on that port. If that happens it will error out the application. Please verify that you are not using the 7777 port anywhere. Thank you.
+Sometimes, your node app cashes ports and connection on that port, and still thinks that connection is open on that port. If that happens it will error out the application. Please verify that you are not using the 8000 port anywhere. Thank you.
 
 I would have loved to have a bit more time to work on the project and get a better look for it. I started working on the visual a little bit and used a codePen beautiful bootstrap pricing table display to show the pokemons in the bag.
 I will keep working on this project as my side project since I liked it a lot, and try to make it better.
