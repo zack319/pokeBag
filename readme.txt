@@ -1,7 +1,7 @@
 # MEAN stack POKE BAG APP
 By - Zakaria Jaouad -
 
-This repo contains the MEAN stack application that is built for Thrive Hive home Project for the interview process.
+This repo contains the MEAN stack application.
 
 I did not know much about Pokemon GO, or really forgot about it, so I had to refresh my mind a little bit. I based my work on what I remembered from all other pokemon games I played and implemented the specifications given by David Theriault.
 
