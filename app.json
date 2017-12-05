@@ -1,0 +1,16 @@
+{
+  "name": "pokeBag",
+  "description": "pokemon bag trying",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
